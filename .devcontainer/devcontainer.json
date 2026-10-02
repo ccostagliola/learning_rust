@@ -1,0 +1,16 @@
+{
+  "name": "Official Rust Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "fill-labs.dependi",
+        "tamasfe.even-better-toml"
+      ]
+    }
+  },
+  "remoteUser": "rustuser"
+}
